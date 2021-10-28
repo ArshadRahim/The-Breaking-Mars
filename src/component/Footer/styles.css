@@ -1,0 +1,107 @@
+.footer {
+  background: #01574F;
+  padding: 96px 165px 24px 165px;
+  position: relative;
+}
+.footer::after {
+  content: url(../../assets/ellipse-group.png);
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+}
+.footer .flez {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start
+}
+.footer .flez .container {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+}
+.footer .flez .container p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #D9DBE1;
+}
+.footer .flez .container .logos img {
+  margin-right: 6px;
+  margin-bottom: 34px;
+}
+.footer .flez .container p {
+  text-align: left;
+}
+.footer .flez .container li {
+  list-style: none;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #D9DBE1;
+  margin-bottom: 12px;
+}
+.footer .flez .container ul {
+  padding-left: 0;
+  margin-top: 24px;
+}
+.footer .flez .container h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.footer .flez .container .reachus-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 24px 0;
+
+}
+.footer .flez .container .reachus-flex p {
+  margin-bottom: 0;
+  margin-left: 6px;
+}
+
+.footer .flez .container .icons-container img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.footer .flez .container .icons-container {
+  margin-top: 34px;
+}
+.footer .foot-copyright {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.footer .foot-copyright p {
+  color: #D9DBE1;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer .foot-copyright p:first-child::before {
+ content: url(../../assets/Vector\ footer2.png);
+ position: absolute;
+ opacity: .2;
+ top: -100px;
+ left: 260px;
+}
+.footer .foot-copyright p:first-child::after {
+ content: url(../../assets/Vector\ footer.png);
+ position: absolute;
+ opacity: .2;
+ top: -60px;
+ left: 300px;
+}
+
+  @media only screen and (max-width: 600px) {
+    .footer .flez {
+  flex-direction: column;
+    }
+  }

@@ -1,0 +1,65 @@
+.what-users-say {
+  background: #fcf6f6;
+  padding-bottom: 124.6px;
+  padding-top: 108px;
+}
+.what-users-say .flex-container {
+  width: 60%;
+  margin: 36px auto auto auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.what-users-say .flex-container .inner-flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.what-users-say .flex-container .inner-flex h5{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0%;
+  margin-left: 15px;
+}
+.what-users-say .flex-container .inner-flex p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0%;
+  margin-left: 15px;
+}
+.what-users-say .quote {
+  background: white;
+  width: 60%;
+  margin:auto;
+  border-radius: 10px;
+  padding: 40px 32px;
+  position: relative;
+}
+.what-users-say .quote p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191F;
+  position: relative;
+}
+.what-users-say .quote p::after {
+  content: "";
+  position:absolute;
+  margin:-2px;
+  bottom: -42px;
+  left: 50%;
+  /* width:10px; */
+  /* height:10px; */
+  border-radius: 0%; /* NEW */
+  box-shadow: 0 0 0 20px white;
+  transform: rotate(45deg);
+}
+.what-users-say .quote p::before {
+  content: url(../../assets/Quote\ Mark.png);
+  position: absolute;
+  right: 100%;
+  bottom: 48%;
+  width: 32px;
+  height: 98px;
+}

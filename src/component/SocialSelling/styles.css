@@ -1,0 +1,109 @@
+.social-selling {
+  background: #fffbf5;
+  padding-top: 152px;
+  padding-bottom: 152px;
+  border-top-left-radius: 100% 320px;
+  border-top-right-radius: 100% 320px;
+  border-bottom-left-radius: 100% 320px;
+  border-bottom-right-radius: 100% 320px;
+}
+.social-selling p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.social-selling h2 {
+  position: relative;
+}
+.social-selling h2::after {
+  content: url(../../assets/xlxm.png);
+  position: absolute;
+  top: 10%;
+  right: 16%;
+  opacity: .2;
+}
+.social-selling .flex-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social-selling .flex-container .graph-img{
+  width: 100%;
+  position: relative;
+  
+}
+.social-selling .flex-container .grap{
+  width: 100%;
+  height: 667.42px;
+  
+}
+.social-selling .flex-container .graph-img .grap-gif {
+  position: absolute;
+  top: 34%;
+  left: 45%;
+  right: 45%; 
+}
+.social-selling .flex-container::before {
+  content: url(../../assets/Group\ 2450.png);
+  position: absolute;
+  top: 4%;
+  right: 748px;
+  left: 0;
+}
+.social-selling .flex-container .inner-flex {
+  padding: 38px 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 714.75px;
+  height: 115px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+.social-selling .flex-container .inner-flex .img-container {
+  width: 40px;
+  height: 40px;
+  background-color: #ede6e6;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.social-selling .flex-container .inner-flex .text-container h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #01574F;
+  text-align: left;
+  margin: 0;
+}
+.social-selling .flex-container .inner-flex .text-container p {
+  color: #01574F;
+  text-align: left;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  .social-selling .flex-container .graph-img img {
+    width: 100%;
+    
+  }
+  .social-selling .flex-container .inner-flex {
+    width: 100%;
+    /* height: 201.11px; */
+  }
+  .social-selling .flex-container .graph-img .grap-gif {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    right: 45%; 
+    width: 72.27px;
+    height: 72.27px;
+  }
+}

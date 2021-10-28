@@ -1,0 +1,60 @@
+.up-coming-features {
+  padding-top: 79px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.up-coming-features .get-free-goodies {
+  margin-top: 90.64px;
+  position: relative;
+}
+.up-coming-features .get-free-goodies p {
+  font-family: MV Boli !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #01574F;
+  margin-bottom: 22px;
+}
+.up-coming-features .get-free-goodies p::after {
+  content: url(../../assets/Group\ 2413.png);
+  position: absolute;
+  top: 30%;
+  right: 32%;
+}
+.up-coming-features .get-free-goodies button {
+  padding: 12px 62px;
+  background: #01574F;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.up-coming-features .flex-container .inner-flex{
+  padding: 10px;
+}
+.up-coming-features .flex-container .inner-flex h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+.up-coming-features .flex-container .inner-flex img {
+  border-radius: 6px;
+  background: rgba(1, 87, 79, 0.05);
+  padding: 6px;
+  margin-bottom: 26px;
+}
+.up-coming-features .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .up-coming-features .flex-container {
+    flex-direction: column;
+  }
+}

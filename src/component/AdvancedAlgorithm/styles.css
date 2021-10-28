@@ -1,0 +1,24 @@
+.advanced-algorithm {
+  margin-top: 109px;
+  padding-bottom: 62px;
+}
+.advanced-algorithm h2{
+  font-size: 48px;
+  line-height: 59px;
+}
+.advanced-algorithm .flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advanced-algorithm .flex-container p{
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 85px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .advanced-algorithm .flex-container{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,74 @@
+.FAQ {
+  margin-top: 97px;
+  margin-bottom: 225px;
+}
+.FAQ h2{
+  margin-bottom: 48px;
+  position: relative;
+}
+.FAQ h2::after{
+  content:url('../../assets/XMLID_1_.png'); 
+  position:absolute;
+  right: 20%;
+  top: 10%;
+  opacity: .3;
+  height: 10px;
+  width: 1px;
+}
+.FAQ .flez {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+}
+.FAQ .flez .container {
+  width: 60%;
+  padding: 24px 34px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  margin-bottom: 20px;
+}
+.FAQ .flez .container1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 173.42px;
+}
+.FAQ .flez .container1 p {
+  text-align: left;
+  margin: auto;
+}
+.FAQ .flez .container1 .internal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.FAQ .flez .container1 .internal p {
+  margin-top: 0;
+
+}
+.FAQ .flez .container p {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #01574F;
+}
+.FAQ .flez .container .para {
+  margin-top: 1%;
+  margin-left: 3%;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.FAQ .flez .container i {
+  font-size: 20px;
+  padding-right: 14px;
+  color: #01574F;
+}

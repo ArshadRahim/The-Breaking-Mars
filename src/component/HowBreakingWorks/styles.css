@@ -1,0 +1,99 @@
+.how-breaking-works {
+  margin-top: 60.5px;
+  
+}
+.how-breaking-works .grid-container {
+  display: grid;
+
+}
+.how-breaking-works .grid-container .step1 {
+  grid-column: 3/7;
+
+}
+.how-breaking-works .grid-container .step2 {
+  grid-column: 3/9;
+
+}
+.how-breaking-works .grid-container .step3 {
+  grid-column: 3/7;
+
+}
+.how-breaking-works .para {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.265em;
+  text-transform: uppercase;
+  color: #01574F;
+  margin-bottom: 70px;
+}
+.how-breaking-works .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* max-width: 1038px; */
+  min-height: 350px;
+  background: rgba(245, 245, 245, 0.31);
+  border: 1px solid #ECE0CE;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 0 100px;
+}
+.how-breaking-works .flex-container .right {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+}
+.how-breaking-works .flex-container .right .step {
+  font-size: 14px;
+  line-height: 18px;
+  color: #01574F;
+  opacity: 0.6;
+  margin: 8px 0px;
+}
+.how-breaking-works .flex-container .right h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #18191F;
+  margin: 8px 0px;
+}
+.how-breaking-works .flex-container .right p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(24, 25, 31, 0.75);
+
+}
+.how-breaking-works .flex-container .left img {
+  width: 250px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  .how-breaking-works .flex-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .how-breaking-works .flex-container .right {
+    padding: 0px 22px;
+  }
+  .how-breaking-works .flex-container .right h3 {
+    text-align: left;
+  }
+    .how-breaking-works .grid-container .step1 {
+      grid-column: 1/1;
+    
+    }
+    .how-breaking-works .grid-container .step2 {
+      grid-column: 1/1;
+    
+    }
+    .how-breaking-works .grid-container .step3 {
+      grid-column: 1/1;
+    
+    }
+}

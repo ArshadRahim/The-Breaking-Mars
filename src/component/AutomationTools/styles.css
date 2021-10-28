@@ -1,0 +1,43 @@
+.automation-tools{
+  padding: 76px 0;
+  margin-bottom: 57px;
+  background: #F8F9F9;
+
+  
+}
+.automation-tools h4 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #01574F;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  
+}
+.automation-tools .flez  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.automation-tools .flez p {
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-right: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #01574F;
+  
+}
+.automation-tools .flez img {
+  margin-right: 4px;
+  height: 32px;
+  
+}
+.automation-tools .flez .trust-pilot {
+  width: 106px;
+  height: 25px;
+  
+}

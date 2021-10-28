@@ -1,0 +1,89 @@
+.with-breaking {
+  background: #F8F9F9;
+  padding-top: 82px;
+  padding-bottom: 64px;
+}
+.with-breaking .para-container {
+  margin-top: 80px;
+  position: relative;
+}
+.with-breaking .para-container p {
+  margin-bottom: 24px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 18px;
+  line-height: 21px;
+}
+.with-breaking .para-container p::before {
+ content: url(../../assets/Vector\ blue.png);
+ position: absolute;
+ top: 110%;
+ left: 350px;
+}
+.with-breaking .para-container p::after {
+ content: url(../../assets/Vector\ yellow.png);
+ position: absolute;
+ top: 110%;
+ right: 550px;
+}
+.with-breaking .para-container button {
+  padding: 17px 69px;
+  background: #01574F;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  margin: auto;
+}
+.with-breaking .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  position: relative;
+
+}
+.with-breaking .flex-container .vertical-line {
+  width: 408px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: rotate(90deg);
+}
+.with-breaking .flex-container img {
+  width: 200px;
+  height: 200px;
+}
+.with-breaking .flex-container h2 span {
+  font-weight: normal;
+}
+.with-breaking .flex-container h2 {
+  line-height: 44px;
+  font-size: 36px;
+}
+.with-breaking .flex-container .flex-left {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+}
+.with-breaking .flex-container .flex-left::after {
+  content: url(../../assets/Vector.png);
+  position: absolute;
+  top: 350px;
+  /* left: 30%; */
+  left: 0;
+  right: 65%;
+}
+.with-breaking .flex-container .flex-right {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .with-breaking .flex-container {
+    flex-direction: column;
+  }
+}

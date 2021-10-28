@@ -1,0 +1,109 @@
+.get-rewards {
+  margin-top: 126px;
+}
+.get-rewards h2 {
+margin-bottom: 15px;
+}
+.get-rewards p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.get-rewards .flex-container img {
+  background-color: #F7F7F7;
+  padding: 12px;
+  border-radius: 20px;
+}
+.get-rewards .flex-container {
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+}
+.get-rewards .flex-container .freshworks {
+  position: absolute;
+  top: 90%;
+  left: 27%;
+}
+.get-rewards .flex-container .freshworks::before {
+  content: url(../../assets/Framee.png);
+  position: absolute;
+  top: 0%;
+  left: -60%;
+}
+.get-rewards .flex-container .airtable {
+  position: absolute;
+  top: 102%;
+  left: 45.5%;
+}
+.get-rewards .flex-container .airtable::after {
+  content: url(../../assets/empty.png);
+  position: absolute;
+  top: 78%;
+  left: 146%;
+}
+.get-rewards .flex-container .sales {
+  position: absolute;
+  top: 78%;
+  left: 59%;
+}
+.get-rewards .flex-container .amazon {
+  position: absolute;
+  top: 42%;
+  left: 41%;
+}
+.get-rewards .flex-container .amazon::before {
+  content: url(../../assets/empty.png);
+  position: absolute;
+  top: 42%;
+  left: -41%;
+}
+.get-rewards .flex-container .zendesk {
+  position: absolute;
+  top: 32%;
+  left: 49%;
+}
+.get-rewards .flex-container .zendesk::after {
+  content: url(../../assets/empty.png);
+  position: absolute;
+  top: 42%;
+  left: 130%;
+}
+.get-rewards .flex-container .xmlid {
+  position: absolute;
+  top: 40%;
+  left: 64%;
+  opacity: .2;
+}
+.get-rewards .flex-container p {
+  font-size: 11px;
+  line-height: 13px;
+  padding: 3px 20px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #ECE0CE;
+  border-radius: 18px;
+  margin-bottom: 0;
+}
+.get-rewards button {
+  margin: auto;
+  padding: 17px 69px;
+  background: #01574F;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-top: 154px;
+}
+.get-rewards .line {
+  opacity: 0.1;
+  border: 1px solid #000000;
+  width: 70%;
+  height: 0px;
+  margin: auto;
+  margin-top: 87px;
+}

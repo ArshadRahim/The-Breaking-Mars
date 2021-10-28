@@ -1,0 +1,63 @@
+.look-around {
+  margin-top: 95px;
+  background: #fcf6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.look-around::after {
+  content: url(../../assets/XMLID1.png);
+  top: 70%;
+  right: 4%;
+  position: absolute;
+  opacity: .2;
+}
+.look-around .right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.look-around .right h2 {
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+}
+.look-around .right p {
+  text-align: left;
+  text-transform: lowercase;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 42px;
+  position: relative;
+
+}
+.look-around .right .first-para::after {
+  content: url(../../assets/Group\ 2413.png);
+  position: absolute;
+  top: 130%;
+  color: #FF7F37;
+
+}
+.look-around .right button {
+  padding: 17px 69px;
+  background: #01574F;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .look-around {
+    flex-direction: column;
+  }
+  .look-around img {
+    width: 100%;
+  }
+}
